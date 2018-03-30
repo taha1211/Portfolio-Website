@@ -1,0 +1,130 @@
+.container {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container .navbar h1 {
+    padding: 20px;
+}
+
+.navbar {
+    padding: 10px;
+}
+.navbar h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3.0em;
+    
+}
+
+.navbar h4 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+.navbar ul {
+    display: block;
+    list-style: none;
+    padding-top: 2em;
+}
+
+.navbar li {
+    display: inline;
+    padding: 1em;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+#active_nav {
+    border-bottom: 3px solid black;
+}
+
+.col {
+    margin: 2em;
+    border-radius: 50px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+    transition: transform 0.7s ease;
+}
+
+#kap:hover {
+    transform: translate(0px, -5px);
+}
+
+#inv:hover {
+    transform: translate(0px, -5px);    
+}
+
+#mdin:hover {
+    transform: translate(0px, -5px);    
+}
+
+
+#name {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#name h1 {
+    padding-bottom: 5px;
+    margin-bottom: 2px;
+    font-weight: normal;
+}
+
+#kap {
+    background: linear-gradient(to bottom right, #FFA1F6,#9E45F7);
+}
+
+#inv {
+    background: linear-gradient(to bottom right, #69D1A5, #477AFC);
+}
+
+#mdin {
+    background: linear-gradient(to bottom right, #91E1FA, #2C28FA);
+}
+
+.demo {
+    min-height: 600px;
+    min-width: 100px;
+    text-align:center;
+}
+
+.demo img {
+    margin: auto;
+    display: block;
+}
+
+.block {
+    min-height: 210px;
+}
+
+.demo h5 {
+    color: #F0F0F0;
+    margin-top: 150px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.demo h6{
+    color: #F0F0F0;
+    margin-top: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#projects {
+    border-bottom: 2px solid black;
+    padding-bottom: 3em;
+}
+
+#social {
+    margin: 30px;
+    margin-left: 18em;
+    margin-right: 18em;
+}
+
+.item {
+    margin: 0 auto;
+    display: inline;
+}
