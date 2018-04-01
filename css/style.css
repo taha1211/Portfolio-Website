@@ -35,7 +35,11 @@
     display: inline;
     padding: 1em;
     font-family: 'Josefin Sans', sans-serif;
+}
 
+#navlink {
+    text-decoration: none;
+    color: black;
 }
 
 #active_nav {
