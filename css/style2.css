@@ -1,0 +1,160 @@
+.container {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container .navbar h1 {
+    padding: 20px;
+}
+
+.navbar {
+    padding: 10px;
+}
+.navbar h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3.0em;
+    
+}
+
+.navbar h4 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+.navbar ul {
+    display: block;
+    list-style: none;
+    padding-top: 2em;
+}
+
+.navbar li {
+    display: inline;
+    padding: 1em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#navlink {
+    text-decoration: none;
+    color: black;
+}
+
+#active_nav {
+    border-bottom: 3px solid black;
+}
+
+#name {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#name h1 {
+    padding-bottom: 5px;
+    margin-bottom: 2px;
+    font-weight: normal;
+}
+
+
+#footnotes {
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+#social {
+    margin-left: 8em;
+    margin-right: 8em;
+}
+
+.item {
+    margin: 0 auto;
+    display: inline;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.headline {
+    background: linear-gradient(to bottom right, #FFA1F6,#9E45F7);
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 25px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+}
+
+.headline h1 {
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    margin: auto;
+}
+
+.headline h3 {
+    color: white;
+    text-align:Center;
+}
+
+.headline .container {
+    padding: 50px;
+    padding-top: 8em;
+    padding-bottom: 4em;
+    margin: auto;
+}
+
+.container h2 {
+    font-family: 'Josefin Sans', sans-serif;    
+    text-align: center;
+    padding: 10px;
+    margin-top: 2em;
+}
+
+#art {
+    text-align: center;
+}
+
+#art-text {
+
+}
+
+#squeeze {
+    margin-left: 12em;
+    margin-right: 12em;
+}
+
+@media only screen and (max-width: 768px) {
+    /*For mobile*/
+    
+      /*Nav-bar Fixes*/
+      #name {
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+
+    .navbar ul {
+        padding: 0;
+        font-size: 15px;
+        margin: 0 auto;
+        padding-top: 2em;
+    }
+
+    /*About Page Fixes */
+    #poster_boy_image {
+        display: none;
+    }
+    
+    .text {
+        padding: 15px;
+        text-align: center;
+        margin: 0;
+    }
+
+    #lang {
+        margin: 0;
+    }
+}
