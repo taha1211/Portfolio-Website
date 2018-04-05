@@ -109,15 +109,27 @@
     font-family: 'Josefin Sans', sans-serif;    
     text-align: center;
     padding: 10px;
-    margin-top: 2em;
+    margin-top: 1.2em;
 }
 
 #art {
     text-align: center;
+    margin-top: 2em;
+    padding-right: 0;
+    padding-left: 0;
 }
 
-#art-text {
+#art img {
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);    
+}
 
+#art_text {
+    font-family: 'Josefin Sans',sans-serif;
+    margin: 2em;
+    margin-top: 2em;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: center;
 }
 
 #squeeze {
@@ -125,9 +137,75 @@
     margin-right: 12em;
 }
 
+.white_back .container {
+    padding-bottom: 3em;
+}
+
+.grey_back {
+    background-color: #EAECEE;
+}
+
+.grey_back .container {
+    padding-top: 1.7em;
+}
+#team_member {
+    text-align: center;
+}
+
+#team_member img {
+    border-radius: 50%;
+}
+
+#team_member h4 {
+    padding: 5px;
+    padding-top: 10px;
+}
+
+#team_info {
+    padding-bottom: 6em;
+    font-family: 'Josefin Sans',sans-serif;
+}
+
+#underline {
+    padding: 1em;
+    border-bottom: 2px solid black;
+}
+
+#chal {
+    text-align: center;
+    font-family: 'Josefin Sans',sans-serif;
+    padding: 10px;
+}
+
+
+#kap_button {
+    background: linear-gradient(to bottom right, #FFA1F6,#9E45F7);
+    margin-right: 40%;
+    margin-left: 40%;    
+    text-align: center;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);    
+    margin-top: 2em;  
+    transition: transform 0.7s ease;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#kap_button:hover {
+    transform: translate(0px, -5px);
+}
+#kap_button h6 {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#extend {
+    padding-bottom: 4em;
+    margin-bottom: 4em;
+}
 @media only screen and (max-width: 768px) {
     /*For mobile*/
-    
+
       /*Nav-bar Fixes*/
       #name {
         text-align: center;
