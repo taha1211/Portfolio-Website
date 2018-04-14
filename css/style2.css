@@ -130,6 +130,7 @@
     margin-left: 0;
     padding-left: 0;
     text-align: center;
+    margin-right: 0;
 }
 
 #squeeze {
@@ -139,6 +140,7 @@
 
 .white_back .container {
     padding-bottom: 3em;
+    font-family: 'Josefin Sans',sans-serif;
 }
 
 .grey_back {
@@ -202,6 +204,38 @@
 #extend {
     padding-bottom: 4em;
     margin-bottom: 4em;
+    text-align: center;
+}
+
+.headline2 {
+    background: linear-gradient(to bottom right, #69D1A5, #477AFC); 
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;  
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);   
+    margin-top: 25px;          
+}
+
+.headline2 h1 {
+    color: white;
+    font-size: 4em;
+}
+
+.headline2 .container {
+    padding: 50px;
+    padding-top: 8em;
+    padding-bottom: 4em;
+    margin: auto;
+}
+
+.headline2 h3 {
+    color:white;
+}
+
+#inv_text {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px;
+    margin-bottom: 10em;
+    text-align: center;
 }
 @media only screen and (max-width: 768px) {
     /*For mobile*/
@@ -234,5 +268,27 @@
 
     #lang {
         margin: 0;
+    }
+
+    #art {
+        display: none;
+    }
+
+    #art_text {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    #squeeze {
+        margin: 0 auto;
+    }
+
+    #kap_button {
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+
+    .headline h1 {
+        font-size: 3em;
     }
 }
